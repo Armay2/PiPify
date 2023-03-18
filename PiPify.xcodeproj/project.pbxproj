@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510180BC29BF3CEF006CB20C /* PiPifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510180BB29BF3CEF006CB20C /* PiPifyApp.swift */; };
+		510180C029BF3CF0006CB20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510180BF29BF3CF0006CB20C /* Assets.xcassets */; };
+		510180C329BF3CF0006CB20C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510180C229BF3CF0006CB20C /* Preview Assets.xcassets */; };
+		510180CE29BF3CF0006CB20C /* PiPifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510180CD29BF3CF0006CB20C /* PiPifyTests.swift */; };
+		510180D829BF3CF0006CB20C /* PiPifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510180D729BF3CF0006CB20C /* PiPifyUITests.swift */; };
+		510180DA29BF3CF0006CB20C /* PiPifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510180D929BF3CF0006CB20C /* PiPifyUITestsLaunchTests.swift */; };
+		51EAFEC129BF5F5500895DE7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EAFEC029BF5F5500895DE7 /* MainView.swift */; };
+		51EAFEC529BF759500895DE7 /* PhotosSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EAFEC429BF759500895DE7 /* PhotosSelector.swift */; };
+		51EAFEC729BFD1D600895DE7 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EAFEC629BFD1D600895DE7 /* VideoManager.swift */; };
+		51EAFEC929BFD24200895DE7 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EAFEC829BFD24200895DE7 /* VideoPlayerView.swift */; };
+		51EAFECB29BFD2CB00895DE7 /* VideoPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EAFECA29BFD2CB00895DE7 /* VideoPlayerModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		510180CA29BF3CF0006CB20C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 510180B029BF3CEF006CB20C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510180B729BF3CEF006CB20C;
+			remoteInfo = PiPify;
+		};
+		510180D429BF3CF0006CB20C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 510180B029BF3CEF006CB20C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510180B729BF3CEF006CB20C;
+			remoteInfo = PiPify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		510180B829BF3CEF006CB20C /* PiPify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiPify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		510180BB29BF3CEF006CB20C /* PiPifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPifyApp.swift; sourceTree = "<group>"; };
+		510180BF29BF3CF0006CB20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		510180C229BF3CF0006CB20C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		510180C429BF3CF0006CB20C /* PiPify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PiPify.entitlements; sourceTree = "<group>"; };
+		510180C929BF3CF0006CB20C /* PiPifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiPifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		510180CD29BF3CF0006CB20C /* PiPifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPifyTests.swift; sourceTree = "<group>"; };
+		510180D329BF3CF0006CB20C /* PiPifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiPifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		510180D729BF3CF0006CB20C /* PiPifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPifyUITests.swift; sourceTree = "<group>"; };
+		510180D929BF3CF0006CB20C /* PiPifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiPifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51EAFEC029BF5F5500895DE7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		51EAFEC429BF759500895DE7 /* PhotosSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosSelector.swift; sourceTree = "<group>"; };
+		51EAFEC629BFD1D600895DE7 /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
+		51EAFEC829BFD24200895DE7 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		51EAFECA29BFD2CB00895DE7 /* VideoPlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		510180B529BF3CEF006CB20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510180C629BF3CF0006CB20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510180D029BF3CF0006CB20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		510180AF29BF3CEF006CB20C = {
+			isa = PBXGroup;
+			children = (
+				510180BA29BF3CEF006CB20C /* PiPify */,
+				510180CC29BF3CF0006CB20C /* PiPifyTests */,
+				510180D629BF3CF0006CB20C /* PiPifyUITests */,
+				510180B929BF3CEF006CB20C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		510180B929BF3CEF006CB20C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				510180B829BF3CEF006CB20C /* PiPify.app */,
+				510180C929BF3CF0006CB20C /* PiPifyTests.xctest */,
+				510180D329BF3CF0006CB20C /* PiPifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		510180BA29BF3CEF006CB20C /* PiPify */ = {
+			isa = PBXGroup;
+			children = (
+				510180BB29BF3CEF006CB20C /* PiPifyApp.swift */,
+				51EAFEC629BFD1D600895DE7 /* VideoManager.swift */,
+				51EAFEC029BF5F5500895DE7 /* MainView.swift */,
+				51EAFEC829BFD24200895DE7 /* VideoPlayerView.swift */,
+				51EAFECA29BFD2CB00895DE7 /* VideoPlayerModel.swift */,
+				51EAFEC429BF759500895DE7 /* PhotosSelector.swift */,
+				510180BF29BF3CF0006CB20C /* Assets.xcassets */,
+				510180C429BF3CF0006CB20C /* PiPify.entitlements */,
+				510180C129BF3CF0006CB20C /* Preview Content */,
+			);
+			path = PiPify;
+			sourceTree = "<group>";
+		};
+		510180C129BF3CF0006CB20C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				510180C229BF3CF0006CB20C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		510180CC29BF3CF0006CB20C /* PiPifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				510180CD29BF3CF0006CB20C /* PiPifyTests.swift */,
+			);
+			path = PiPifyTests;
+			sourceTree = "<group>";
+		};
+		510180D629BF3CF0006CB20C /* PiPifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				510180D729BF3CF0006CB20C /* PiPifyUITests.swift */,
+				510180D929BF3CF0006CB20C /* PiPifyUITestsLaunchTests.swift */,
+			);
+			path = PiPifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		510180B729BF3CEF006CB20C /* PiPify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510180DD29BF3CF0006CB20C /* Build configuration list for PBXNativeTarget "PiPify" */;
+			buildPhases = (
+				510180B429BF3CEF006CB20C /* Sources */,
+				510180B529BF3CEF006CB20C /* Frameworks */,
+				510180B629BF3CEF006CB20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiPify;
+			packageProductDependencies = (
+			);
+			productName = PiPify;
+			productReference = 510180B829BF3CEF006CB20C /* PiPify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		510180C829BF3CF0006CB20C /* PiPifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510180E029BF3CF0006CB20C /* Build configuration list for PBXNativeTarget "PiPifyTests" */;
+			buildPhases = (
+				510180C529BF3CF0006CB20C /* Sources */,
+				510180C629BF3CF0006CB20C /* Frameworks */,
+				510180C729BF3CF0006CB20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510180CB29BF3CF0006CB20C /* PBXTargetDependency */,
+			);
+			name = PiPifyTests;
+			productName = PiPifyTests;
+			productReference = 510180C929BF3CF0006CB20C /* PiPifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		510180D229BF3CF0006CB20C /* PiPifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510180E329BF3CF0006CB20C /* Build configuration list for PBXNativeTarget "PiPifyUITests" */;
+			buildPhases = (
+				510180CF29BF3CF0006CB20C /* Sources */,
+				510180D029BF3CF0006CB20C /* Frameworks */,
+				510180D129BF3CF0006CB20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510180D529BF3CF0006CB20C /* PBXTargetDependency */,
+			);
+			name = PiPifyUITests;
+			productName = PiPifyUITests;
+			productReference = 510180D329BF3CF0006CB20C /* PiPifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		510180B029BF3CEF006CB20C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					510180B729BF3CEF006CB20C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					510180C829BF3CF0006CB20C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 510180B729BF3CEF006CB20C;
+					};
+					510180D229BF3CF0006CB20C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 510180B729BF3CEF006CB20C;
+					};
+				};
+			};
+			buildConfigurationList = 510180B329BF3CEF006CB20C /* Build configuration list for PBXProject "PiPify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 510180AF29BF3CEF006CB20C;
+			packageReferences = (
+			);
+			productRefGroup = 510180B929BF3CEF006CB20C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				510180B729BF3CEF006CB20C /* PiPify */,
+				510180C829BF3CF0006CB20C /* PiPifyTests */,
+				510180D229BF3CF0006CB20C /* PiPifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		510180B629BF3CEF006CB20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510180C329BF3CF0006CB20C /* Preview Assets.xcassets in Resources */,
+				510180C029BF3CF0006CB20C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510180C729BF3CF0006CB20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510180D129BF3CF0006CB20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		510180B429BF3CEF006CB20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EAFEC929BFD24200895DE7 /* VideoPlayerView.swift in Sources */,
+				51EAFEC129BF5F5500895DE7 /* MainView.swift in Sources */,
+				51EAFECB29BFD2CB00895DE7 /* VideoPlayerModel.swift in Sources */,
+				510180BC29BF3CEF006CB20C /* PiPifyApp.swift in Sources */,
+				51EAFEC529BF759500895DE7 /* PhotosSelector.swift in Sources */,
+				51EAFEC729BFD1D600895DE7 /* VideoManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510180C529BF3CF0006CB20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510180CE29BF3CF0006CB20C /* PiPifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510180CF29BF3CF0006CB20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510180D829BF3CF0006CB20C /* PiPifyUITests.swift in Sources */,
+				510180DA29BF3CF0006CB20C /* PiPifyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		510180CB29BF3CF0006CB20C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510180B729BF3CEF006CB20C /* PiPify */;
+			targetProxy = 510180CA29BF3CF0006CB20C /* PBXContainerItemProxy */;
+		};
+		510180D529BF3CF0006CB20C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510180B729BF3CEF006CB20C /* PiPify */;
+			targetProxy = 510180D429BF3CF0006CB20C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		510180DB29BF3CF0006CB20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		510180DC29BF3CF0006CB20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		510180DE29BF3CF0006CB20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = PiPify/PiPify.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PiPify/Preview Content\"";
+				DEVELOPMENT_TEAM = 297AHX4JHU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PiPify;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnaudnommay.com.PiPify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		510180DF29BF3CF0006CB20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = PiPify/PiPify.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PiPify/Preview Content\"";
+				DEVELOPMENT_TEAM = 297AHX4JHU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PiPify;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnaudnommay.com.PiPify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		510180E129BF3CF0006CB20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 297AHX4JHU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnaudnommay.com.PiPifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiPify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiPify";
+			};
+			name = Debug;
+		};
+		510180E229BF3CF0006CB20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 297AHX4JHU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnaudnommay.com.PiPifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiPify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PiPify";
+			};
+			name = Release;
+		};
+		510180E429BF3CF0006CB20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 297AHX4JHU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnaudnommay.com.PiPifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PiPify;
+			};
+			name = Debug;
+		};
+		510180E529BF3CF0006CB20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 297AHX4JHU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnaudnommay.com.PiPifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PiPify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		510180B329BF3CEF006CB20C /* Build configuration list for PBXProject "PiPify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510180DB29BF3CF0006CB20C /* Debug */,
+				510180DC29BF3CF0006CB20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510180DD29BF3CF0006CB20C /* Build configuration list for PBXNativeTarget "PiPify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510180DE29BF3CF0006CB20C /* Debug */,
+				510180DF29BF3CF0006CB20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510180E029BF3CF0006CB20C /* Build configuration list for PBXNativeTarget "PiPifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510180E129BF3CF0006CB20C /* Debug */,
+				510180E229BF3CF0006CB20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510180E329BF3CF0006CB20C /* Build configuration list for PBXNativeTarget "PiPifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510180E429BF3CF0006CB20C /* Debug */,
+				510180E529BF3CF0006CB20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 510180B029BF3CEF006CB20C /* Project object */;
+}
