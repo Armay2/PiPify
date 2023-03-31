@@ -12,7 +12,7 @@ PiPify is a macOS application available on the App Store that allows you to put 
 
 You can download PiPify from the App Store on your macOS device.
 
-[<img src="Screenshots/appstore-badge.png" height="50">](https://itunes.apple.com/us/app/)
+[<img src="Screenshots/appstore-badge.png" height="50">](https://apps.apple.com/fr/app/pipify/id6446433053?l=en&mt=12)
 
 # Features
 
