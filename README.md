@@ -23,7 +23,7 @@ You can download PiPify from the App Store on your macOS device.
 
 # How to Use
 
-Below are some screenshots of Pipify in action. The app's user interface is designed to be simple and intuitive, making it easy for users to quickly start using the Picture in Picture mode. 
+Below are some screenshots of Pipify in action. The app's user interface is designed to be simple and intuitive, making it easy for users to quickly start using the Picture in Picture mode. Just drag and drop any image, on click on video's Picture in Picture icon
 
 [<img src="Screenshots/screenshot4.png">]()
 
